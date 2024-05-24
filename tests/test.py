@@ -10,7 +10,6 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 # so this will be overridden and tests will run browserstack -
 # without any changes to the test files!
 options = ChromeOptions()
-options.set_capability()
 driver = webdriver.Chrome(options=options)
 
 try:
